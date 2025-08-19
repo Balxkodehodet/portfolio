@@ -84,3 +84,15 @@ a {
   background-color: #8ccbfb;
   color: #171717;
 }
+.prosjekt-kort li a {
+  max-width: 100%;
+}
+@media (max-width: 600px) {
+  .container ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .prosjekt-kort {
+    width: 90%;
+  }
+}
