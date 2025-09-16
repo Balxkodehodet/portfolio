@@ -10,6 +10,15 @@ body {
   width: 100%;
   height: 100%;
 }
+.react-vite {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+}
 header {
   width: 100%;
 }
@@ -51,7 +60,7 @@ nav ul li a:hover {
 .container ul li {
   padding: 15px;
   margin: 15px;
-  background-color: brown;
+  background-color: burlywood;
 }
 .container ul li a {
   color: #171717;
@@ -74,11 +83,25 @@ a {
   padding: 10px;
 }
 .prosjekt-kort {
-  padding: 1.5rem;
-  margin: 1.5rem;
-  width: 25%;
+  padding: 20px;
+  margin: 20px;
+  width: 40%;
+  max-width: 40%;
   border-radius: 10px;
   background-color: aqua;
+}
+h2 {
+  height: 100%;
+  max-width: 40%;
+  padding: 20px;
+  margin: 20px;
+  place-content: center;
+  background-color: aqua;
+}
+.html-css {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .prosjekt-kort:hover {
   background-color: #8ccbfb;
@@ -86,6 +109,10 @@ a {
 }
 .prosjekt-kort li a {
   max-width: 100%;
+}
+p {
+  padding: 10px;
+  margin: 10px;
 }
 @media (max-width: 600px) {
   .container ul {
