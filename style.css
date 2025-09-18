@@ -121,5 +121,19 @@ p {
   }
   .prosjekt-kort {
     width: 90%;
+    min-width: 90%;
+  }
+  .react-vite {
+    width: 100%;
+    min-width: 100%;
+    flex-direction: column;
+  }
+  .react-vite h2 {
+    width: 100%;
+    min-width: 100%;
+  }
+  .html-css h2 {
+    width: 100%;
+    min-width: 100%;
   }
 }
