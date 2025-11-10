@@ -52,6 +52,7 @@ li {
 .overskrifter a {
   color: #171717;
   text-decoration: none;
+  max-width: 100%;
 }
 .hidden {
   display: none;
@@ -83,7 +84,7 @@ li {
 }
 nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 nav ul li a:hover {
   background-color: #ddd;
@@ -118,6 +119,13 @@ a {
   text-decoration: none;
   padding: 10px;
 }
+.overskrift-div {
+  width: 300px;
+  margin: 20px;
+  border: solid black 2px;
+  border-radius: 10px;
+  background-color: aqua;
+}
 .prosjekt-kort {
   padding: 20px;
   margin: 20px;
@@ -128,15 +136,33 @@ a {
 }
 .prosjekt-kort ul li {
   padding: 20px;
-  background-color: rgb(255, 123, 0);
+  background-color: rgb(0, 132, 255);
+  color: whitesmoke;
+  border-radius: 20px;
 }
 .prosjekt-kort ul li a {
-  color: black;
+  display: inline-block;
   list-style: none;
+}
+#html-link {
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+#html,
+#react,
+#backend,
+#AI-KI {
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: break-word;
+  border: solid black 2px;
+  border-radius: 50px;
 }
 #react:hover,
 #html:hover,
-#backend:hover {
+#backend:hover,
+#AI-KI:hover {
   transform: scale(1.1);
   color: rgb(110, 107, 107);
   cursor: pointer;
@@ -149,10 +175,11 @@ a {
 .prosjekt-kort2 ul li {
   margin: 20px;
   padding: 20px;
-  background-color: rgb(255, 123, 0);
+  background-color: rgb(0, 132, 255);
+  border-radius: 20px;
 }
 .prosjekt-kort2 ul li a {
-  color: black;
+  color: white;
   list-style: none;
 }
 .prosjekt-kort2 ul li:hover {
